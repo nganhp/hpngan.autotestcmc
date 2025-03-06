@@ -62,7 +62,7 @@ public class Homework {
         int year = leapyear.nextInt();
 
         if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
-            System.out.println(year + " ùis a leap year.");
+            System.out.println(year + "t sua cái này");
         } else {
             System.out.println(year + " is not a leap year.");
 
