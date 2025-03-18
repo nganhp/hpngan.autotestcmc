@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Lương nước trong robot_1 sau khi lấy nước là: " + robot_2.getLuongNuoc());
         binhNuoc += robot_2.chamNuoc();
         System.out.println("Lượng nước sau khi châm nước vào bình: " + robot_2.chamNuoc());
-        System.out.println("Lượng nước trong bình sau khi được châm nước: " + binhNuoc);
+        System.out.println("Lượng nước trong bình sau khi được châm nước là: " + binhNuoc);
 
 
 

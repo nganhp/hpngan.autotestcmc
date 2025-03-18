@@ -27,6 +27,7 @@ public int chamNuoc(){
    this.luongNuoc = 0;
    return nuocDoRa;
 
+
 }
 
 }
