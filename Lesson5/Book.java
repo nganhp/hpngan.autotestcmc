@@ -24,20 +24,20 @@ public class Book {
     public boolean getIsAvailable(){
         return isAvailable;
     }
-    public void setAvaiable(boolean available){
+    public boolean setAvaiable(boolean available){
         isAvailable = available;
+        return available;
     }
 
-    public void displayBookDetail(boolean isAvailable) {
-        System.out.println("Title123: " + title );
+    public void displayBookDetail() {
+        System.out.println("Title: " + title );
         System.out.println("Author: " + author );
         System.out.println("ISBN: " + isbn );
         System.out.println("Availability: " + (isAvailable ? "Available" : "Borrowed")); // biểu_thức_điều_kiện ? biểu_thức_1 : biểu_thức_2 (nếu biểu thức điều kiện true > print ra biểu thức 1 và ngược lại)
-
-        
-
-
-
+        System.out.println("-------------------------------");
+    }
+    public boolean checkAvailability(){
+        return isAvailable;
     }
 
 
