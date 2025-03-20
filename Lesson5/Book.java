@@ -34,7 +34,7 @@ public class Book {
         System.out.println("Author: " + author );
         System.out.println("ISBN: " + isbn );
         System.out.println("Availability: " + (isAvailable ? "Available" : "Borrowed")); // biểu_thức_điều_kiện ? biểu_thức_1 : biểu_thức_2 (nếu biểu thức điều kiện true > print ra biểu thức 1 và ngược lại)
-        System.out.println("-------------------------------");
+        System.out.println("--------------------------------");
     }
     public boolean checkAvailability(){
         return isAvailable;

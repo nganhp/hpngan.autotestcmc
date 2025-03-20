@@ -11,7 +11,7 @@ public class Library {
         this.bookCount = 0; // khởi tạo giá trị ban đầu là thư viện chưa có sách
     }
 
-    public void addBook(Book book) {    //biến book có kiểu dữ kiệu book - book là 1 object mang những thuộc tính của lớp Book
+    public void addBook(Book book) {    //biến book có kiểu dữ kiệu book - book là 1 object mang những thuộc tính của lớp Books
         if (bookCount < books.length) {  //books.length là số lượng elements trong books array
             books[bookCount] = book; //gán cuốn book cho phần từ đầu tiên của mảng book, bookCount khởi tạo bằng 0 nghĩa là khi thêm book1 thì vị trí 0 = book1
             bookCount++; //cập nhật số lượng sách

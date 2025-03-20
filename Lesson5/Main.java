@@ -12,9 +12,9 @@ public class Main {
 
         //Display Book Detail
 //        myBook1.displayBookDetail();
-//        System.out.println("-----------------------------------");
+//        System.out.println("------------------------------------");
 //        myBook2.displayBookDetail();
-//        System.out.println("-----------------------------------");
+//        System.out.println("------------------------------------");
 //        myBook3.displayBookDetail();
 
         //Add book to Library
