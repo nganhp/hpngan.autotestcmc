@@ -35,7 +35,7 @@ public class Main {
 
         // Borrow Book
         System.out.println("\nBorrowed Book: ");
-        library1.borrowBook("123abc123");
+        library1.borrowBook(myBook1.getIsbn());
 
         //Display all book after borrowing
         System.out.println("\nAll Book in the Library after borrowing:");
@@ -43,7 +43,7 @@ public class Main {
 
         // Return Book
         System.out.println("\nBook Returned:");
-        library1.returnBook("345abc345");
+        library1.returnBook(myBook1.getIsbn());
 
         //Display all book after returning
         System.out.println("\nAll Book in the Library after returning:");
