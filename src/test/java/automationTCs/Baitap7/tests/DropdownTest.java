@@ -1,9 +1,7 @@
 package automationTCs.Baitap7.tests;
 
 import automationTCs.Baitap7.pages.DropdownPage;
-import automationTCs.Baitap7.pages.DynamicLoadingPage;
-import automationTCs.Baitap7.utilities.BaseTest;
-import org.openqa.selenium.chrome.ChromeDriver;
+import automationTCs.Baitap7.BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

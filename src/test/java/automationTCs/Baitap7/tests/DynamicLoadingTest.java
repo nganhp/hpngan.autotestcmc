@@ -1,14 +1,10 @@
 package automationTCs.Baitap7.tests;
 
-import automationTCs.Baitap7.pages.DynamicControlsPage;
 import automationTCs.Baitap7.pages.DynamicLoadingPage;
-import automationTCs.Baitap7.utilities.BaseTest;
-import org.openqa.selenium.WebDriver;
+import automationTCs.Baitap7.BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.lang.annotation.Target;
 
 public class DynamicLoadingTest extends BaseTest {
     private DynamicLoadingPage dynamicLoadingPage;

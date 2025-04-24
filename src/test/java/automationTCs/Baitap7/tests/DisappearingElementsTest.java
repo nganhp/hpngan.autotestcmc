@@ -2,7 +2,7 @@ package automationTCs.Baitap7.tests;
 
 
 import automationTCs.Baitap7.pages.DisappearingElementsPage;
-import automationTCs.Baitap7.utilities.BaseTest;
+import automationTCs.Baitap7.BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

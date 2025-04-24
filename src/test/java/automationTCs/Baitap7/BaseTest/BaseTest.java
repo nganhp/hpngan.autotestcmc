@@ -1,4 +1,4 @@
-package automationTCs.Baitap7.utilities;
+package automationTCs.Baitap7.BaseTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
